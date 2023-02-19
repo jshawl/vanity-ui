@@ -1,5 +1,5 @@
 module Vanity
   module Ui
-    VERSION = "0.1.0"
+    VERSION = "2023.02.18-alpha"
   end
 end
