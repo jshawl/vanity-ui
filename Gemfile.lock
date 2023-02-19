@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    vanity-ui (2023.02.18.pre.alpha)
+    vanity-ui (2023.02.18.pre.alpha2)
       rails (>= 7.0.4)
 
 GEM
