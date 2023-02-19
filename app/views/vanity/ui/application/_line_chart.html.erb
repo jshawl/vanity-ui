@@ -1,0 +1,32 @@
+<style>
+svg {
+  border: 5px solid darkorchid;
+  border-radius: 5px;
+  margin: 1rem;
+}
+svg path {
+  stroke-width: 5;
+  fill: lavender;
+  stroke: darkorchid;
+  stroke-linejoin: round;
+}
+</style>
+
+<div class="line-chart">
+  <svg namespace="xmlns:http://www.w3.org/2000/svg">
+    <path d="M 0,150 L 10,10 L 20,20" />
+  </svg>
+</div>
+
+<script>
+const path = document.querySelector("path");
+
+let d = "M 0,110 ";
+for (let i = 0; i < 30; i++) {
+  const r = Math.floor(Math.random() * 80) + 40;
+  d += `L ${(i + 1) * 10},${r} `;
+}
+d += " L 350,200 L -30,200 Z";
+path.setAttribute("d", d);
+
+</script>

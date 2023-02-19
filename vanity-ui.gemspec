@@ -5,22 +5,15 @@ Gem::Specification.new do |spec|
   spec.version     = Vanity::Ui::VERSION
   spec.authors     = ["Jesse Shawl"]
   spec.email       = ["jesse@jesse.sh"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of Vanity::Ui."
-  spec.description = "TODO: Description of Vanity::Ui."
-    spec.license     = "MIT"
-  
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the "allowed_push_host"
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
-
+  spec.homepage    = "https://github.com/jshawl/vanity-ui"
+  spec.summary     = "UI for User Metrics"
+  spec.description = "Visualize user activity in your new SaaS"
+  spec.license     = "MIT"
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
-
+  spec.metadata["source_code_uri"] = "https://github.com/jshawl/vanity-ui"
+  spec.metadata["changelog_uri"] = "https://github.com/jshawl/vanity-ui/"
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
   end
-
   spec.add_dependency "rails", ">= 7.0.4"
 end

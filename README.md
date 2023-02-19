@@ -1,11 +1,15 @@
 # Vanity::Ui
-Short description and motivation.
+
+Measure user activity
 
 ## Usage
-How to use my plugin.
+
+Visit `/vanity-ui` in a browser.
 
 ## Installation
+
 Add this line to your application's Gemfile:
+
 
 ```ruby
 gem "vanity-ui"
@@ -21,8 +25,11 @@ Or install it yourself as:
 $ gem install vanity-ui
 ```
 
+add `mount Vanity::Ui::Engine => "/vanity-ui"` to `config/routes.rb`.
+
 ## Contributing
-Contribution directions go here.
+
+Don't contribute or else.
 
 ## License
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

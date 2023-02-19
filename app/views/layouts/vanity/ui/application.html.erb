@@ -4,12 +4,17 @@
   <title>Vanity ui</title>
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
-
-  <%= stylesheet_link_tag    "vanity/ui/application", media: "all" %>
+  <style>
+    html, body {
+      font-family: sans-serif;
+    }
+  </style>
 </head>
 <body>
-
+<h1>Vanity UI</h1>
+<hr />
+<section>
 <%= yield %>
-
+</section>
 </body>
 </html>
